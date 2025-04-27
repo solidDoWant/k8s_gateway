@@ -4,10 +4,7 @@ on:
   push:
     branches:
       - master
-    paths:
-      - cmd/**
-      - go.*
-      - Dockerfile
+      - next
   pull_request:
     branches:
       - master
